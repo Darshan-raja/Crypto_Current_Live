@@ -1,0 +1,178 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:content-box;
+    font-family: 'poppine', sans-serif;
+   
+}
+
+.cont{
+    
+    display:grid;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    padding: 10px;
+    color: aqua;
+    background-image: url(img/bc.png);
+
+}
+nav{
+    width: 100%;
+    padding: 10px 0px;
+    display:inline-table;
+    align-items: top;
+
+}
+.logo{
+    width: 90px;
+    cursor: pointer;
+}
+nav ul{
+    flex: 10px;
+}
+nav ul li{
+    display: inline-block;
+    margin: 10px 20px;
+}
+nav ul li a{
+    color: antiquewhite;
+    text-decoration: none;
+}
+
+nav .btn{
+    display: grid;
+    grid-template-columns: 20px 50px;
+    display: inline-block;
+    padding: 10px 90px;
+    background: rgb(181, 193, 193);
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-left: 0px;
+}
+
+.cont2{
+    margin-top: -1px;
+    
+}
+.cont2 h1{
+    font-size: 50px; /* Set the font size to 50 pixels */
+    margin-bottom: 5px; /* Set the bottom margin to 5 pixels */
+}
+.cont2 h1 span{ /* This CSS rule targets the span element inside the h1 element within the .cont2 class and sets its color to chocolate */
+    color: chocolate;
+}
+
+.cont2 p{
+    color: #2a82e0;
+}
+
+.cont p{
+    line-height: 22px;
+    font-size: 30px;
+    
+}
+.cont .btn{
+    display: inline-block;
+    margin-top: 30px;
+    background: #c98327;
+    color: #fff;
+    text-decoration:solid;
+    padding: 15px 30px;
+    border-radius: 30px ;
+}
+.coin-list{
+    position:initial;
+    right: 10%;
+    bottom: 30px;
+    display:inline;
+    align-items:center;
+}
+.coin-list{
+    display:flex;
+    align-items:flex-start;
+    font-size: 14px;
+    margin:auto ;
+    color: #ff960f;
+    border: 1px solid #fff;
+    padding: 10px 10px 10px 10px;
+    border-radius: 30px;
+    filter: drop-shadow(1px 1px 20px pink);
+}
+
+.coin img{
+    width: 9px;
+    margin-right: 10px;
+}
+
+.coin .h3{
+    color: #cddf03;
+}
+.coin-price{
+    display:flex;
+    align-items:end;
+    font-size: 15px;
+    margin: 10px 10px; 
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+}
+
+.converter {
+    max-width: 300px;
+    margin: 30px auto;
+    padding: 10px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 60px 60px 90px rgba(236, 17, 17, 0.1);
+    
+}
+
+h2 {
+    text-align:right;
+    margin-bottom: 10px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="number"] {
+    color:#eba40b;
+    width: 100%;
+    padding: 3px;
+    margin-bottom: 20px;
+}
+
+button {
+    width: 280px;
+    padding: 10px;
+    background-color: #007bff;
+    color: #eba40b;
+    border: none;
+    position: relative;
+    transition: .40s ease-out;
+    z-index: 1;
+    border-radius: 5px;
+    cursor: pointer;
+    filter: drop-shadow(1px 1px 9px red);
+}
+
+button-3:hover
+
+button::before,
+button::after {
+    position:absolute;
+    content: "";
+    z-index: -1;
+    background-color: #0056b3;
+}
+
+p#result {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+}
