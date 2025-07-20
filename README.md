@@ -25,6 +25,7 @@ Live price project/
 - HTML
 - CSS
 - JavaScript
+- 
 
 ## 📦 How to Run
 
@@ -37,9 +38,7 @@ Live price project/
 
 Feel free to fork the repo and submit pull requests. Suggestions and improvements are welcome!
 
-## 📄 License
-
-This project is open-source and available under the [MIT License](https://opensource.org/licenses/MIT).
+.
 
 ---
 
